@@ -317,6 +317,20 @@ header
     transform: scale(1.1);
 }
 
+
+@keyframes scale 
+{
+    from
+    {
+        transform:scale(1);
+    }
+    to 
+    {
+        transform: scale(1.1);
+    }  
+}
+
+
 @media screen and (max-width:768px)
 {
     body
@@ -412,6 +426,10 @@ header
         margin:0;
         justify-content: center;
         padding:10px;
+    }
+    .btn-hero a 
+    {
+        animation:scale 0.5s ease forwards;
     }
     #services
     {
