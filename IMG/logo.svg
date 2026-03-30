@@ -1,0 +1,41 @@
+<svg width="600" height="250" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title 
+    { 
+      fill: #eaeaea;
+      font-family: 'DM Sans', Arial, sans-serif;
+      font-size: 60px;
+      font-weight: 700;
+      letter-spacing: -1px;
+    }
+    .subtitle
+    { 
+      fill: #4da3ff; 
+      font-family: 'DM Sans', Arial, sans-serif;
+      font-size: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight:500;
+    }
+    .icon
+    { 
+      fill: #4da3ff;
+      font-size: 60px; 
+      font-family: monospace;
+      font-weight:600;
+    }
+  </style>
+
+  <!-- Code Icon -->
+  <text x="50%" y="90" text-anchor="middle" class="icon">&lt;/&gt;</text>
+
+  <!-- Main Title -->
+  <text x="50%" y="160" text-anchor="middle" class="title">
+    Sherlog Olms
+  </text>
+
+  <!-- Subtitle -->
+  <text x="50%" y="210" text-anchor="middle" class="subtitle">
+    Création de sites web
+  </text>
+</svg>

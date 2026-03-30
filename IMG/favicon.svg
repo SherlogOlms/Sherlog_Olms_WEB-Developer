@@ -1,0 +1,28 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="16" y="16" width="224" height="224" rx="48" fill="#12121A"/>
+
+  <text 
+    x="50%" 
+    y="52%"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="DM Sans, Arial, sans-serif"
+    font-size="80"
+    font-weight="700"
+    letter-spacing="-2"
+  >
+    <tspan fill="#4DA3FF" filter="url(#softGlow)">&lt;</tspan>
+    <tspan fill="#EAEAEA">/</tspan>
+    <tspan fill="#4DA3FF" filter="url(#softGlow)">&gt;</tspan>
+  </text>
+</svg>
